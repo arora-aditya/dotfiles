@@ -1,0 +1,39 @@
+[user]
+	name = Aditya Arora
+	email = 10962267+arora-aditya@users.noreply.github.com
+	signingkey = CCC3DBA05586E0D5
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[alias]
+	c = commit
+	ca = commit
+	cm = commit
+	co = checkout
+	d = diff
+	master = checkout
+	s = status
+	spull = svn
+	spush = svn
+	ca = commit
+	cm = commit
+	master = checkout
+	spull = svn
+	ca = commit
+	cm = commit
+	master = checkout
+	spull = svn
+	ca = commit
+	cm = commit
+	master = checkout
+	spull = svn
+	ca = commit
+	cm = commit
+	master = checkout
+	spull = svn
+	ca = commit
+	cm = commit
+	master = checkout
+	spull = svn
