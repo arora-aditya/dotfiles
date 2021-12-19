@@ -1,7 +1,6 @@
 [user]
 	name = Aditya Arora
 	email = 10962267+arora-aditya@users.noreply.github.com
-	signingkey = CCC3DBA05586E0D5
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -37,3 +36,5 @@
 	cm = commit
 	master = checkout
 	spull = svn
+[fetch]
+	prune = true
